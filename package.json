@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "eslint": "eslint --fix 'src/**'",
-    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json}'"
+    "lint:ts": "eslint 'src/**'",
+    "lint:ts:fix": "npm run lint:ts -- --fix",
+    "prettier": "prettier --write 'src/**/*.{ts,tsx,json}'"
   },
   "keywords": [],
   "author": "",
@@ -25,11 +26,24 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.8.2"
   },
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "npm run lint:ts:fix",
+      "npm run prettier"
+    ]
   }
 }
