@@ -1,22 +1,21 @@
 {
   "name": "fraka-scrabble-score",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Puntajes para Scrabble en Español",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^13.7.4",
     "@types/react": "^16.9.21",
     "@types/react-dom": "^16.9.5",
-    "source-map-loader": "^0.2.4",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.8.2",
-    "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "@types/webpack-env": "^1.15.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.2"
   },
   "dependencies": {
     "react": "^16.12.0",

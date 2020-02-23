@@ -1,0 +1,5 @@
+- External React and ReactDOM as in https://www.typescriptlang.org/docs/handbook/react-&-webpack.html?
+
+    <!-- Dependencies -->
+    <!-- <script src="./node_modules/react/umd/react.development.js"></script>
+    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script> -->
