@@ -1,8 +1,6 @@
-# Contador de puntajes para Scrabble en español
+# Simple React/TypeScript Boilerplate
 
-> Me da pereza hacer aritmética
-
-Mantén tus puntajes de Scrabble mientras mantienes tu 🧠 ocupado en encontrar palabras.
+Parcel, React, TypeScript, Styled Components, Eslint, Stylelint (no Redux)
 
 ## Development setup
 
