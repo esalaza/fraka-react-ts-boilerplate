@@ -4,7 +4,9 @@
   "description": "Puntajes para Scrabble en Español",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel index.html --open",
+    "eslint": "eslint --fix 'src/**'",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json}'"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,15 @@
     "@types/react": "^16.9.21",
     "@types/react-dom": "^16.9.5",
     "@types/webpack-env": "^1.15.1",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.8.2"
   },
