@@ -1,0 +1,11 @@
+- External React and ReactDOM as in https://www.typescriptlang.org/docs/handbook/react-&-webpack.html?
+    <!-- Dependencies -->
+    <!-- <script src="./node_modules/react/umd/react.development.js"></script>
+    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script> -->
+- Set up path aliases
+- Revisit Eslint TS config according this: https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md
+- Upgrade to Prettier 2
+  - Reconfigure ESlint + prettier: https://github.com/prettier/eslint-config-prettier
+- VSCode: Make sure Project ESlint and VSCode linting are synced and auto fix
+  - https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project
+
